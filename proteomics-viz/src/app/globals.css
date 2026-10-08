@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --accent: #0f766e;
+  --accent-muted: #ecfdf5;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-sans), "IBM Plex Sans", system-ui, sans-serif;
+}
+
+.font-serif {
+  font-family: var(--font-serif), "Libre Bodoni", Georgia, serif;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
